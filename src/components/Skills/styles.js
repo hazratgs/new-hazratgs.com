@@ -1,13 +1,8 @@
 import styled from 'styled-components'
 
 export const Skills = styled.div`
-  padding: 20px 80px;
+  padding: 20px 0;
   max-width: 640px;
-
-  h2 {
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
 `
 
 export const Wrapper = styled.div`

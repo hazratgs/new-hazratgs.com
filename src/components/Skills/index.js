@@ -1,9 +1,10 @@
 import React from 'react'
+import Title from '../Title'
 import { Skills, Wrapper, Item, New } from './styles'
 
 export default () => (
   <Skills>
-    <h2>Навыки</h2>
+    <Title>Профессиональные навыки</Title>
     <Wrapper>
       <Item>
         <img src='/skills/js.svg' alt='javascript'/>
@@ -56,7 +57,7 @@ export default () => (
       </Item>
       <Item>
         <img src='/skills/web-components.svg' alt='Web components'/>
-        <span>Web comp...</span>
+        <span>Web components</span>
       </Item>
       <Item>
         <img src='/skills/aws.svg' alt='AWS'/>

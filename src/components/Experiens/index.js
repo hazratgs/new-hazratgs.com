@@ -1,9 +1,10 @@
 import React from 'react'
+import Title from '../Title'
 import { Experience, Wrapper, Item, Company, Type, DateWork } from './styles'
 
 export default () => (
   <Experience>
-    <h2>Опыт работы</h2>
+    <Title>Опыт работы</Title>
     <Wrapper>
       <Item>
         <Company target='_blank' href='https://crypterium.com/'>

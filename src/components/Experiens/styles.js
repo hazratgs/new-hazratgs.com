@@ -1,12 +1,7 @@
 import styled from 'styled-components'
 
 export const Experience = styled.div`
-  padding: 20px 80px;
-
-  h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
+  padding: 20px 0;
 `
 
 export const Wrapper = styled.div`
@@ -49,6 +44,10 @@ export const Item = styled.div`
     left: 23px;
     content: '';
     opacity: .18;
+  }
+
+  @media (max-width: 767px) {
+    padding-left: 50px;
   }
 `
 
