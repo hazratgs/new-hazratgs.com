@@ -1,12 +1,16 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-
+  
 `
 
 export const Form = styled.div`
   width: 490px;
   padding: 20px 0;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 export const Row = styled.div`
@@ -65,6 +69,7 @@ export const Input = styled.div`
     z-index: 5;
     background-color: transparent;
     transition: all ease-in-out 0.3s;
+    width: 100%;
 
     &:focus ~ span {
       top: -15px;
@@ -88,6 +93,7 @@ export const Input = styled.div`
     resize: none;
     overflow: hidden;
     transition: all ease-in-out 0.3s;
+    width: 100%;
 
     &:focus ~ span {
       top: -15px;
@@ -99,6 +105,7 @@ export const Input = styled.div`
 
 export const Button = styled.button`
   border: 1px solid #000;
+  background-color: #fff;
   height: 60px;
   width: 245px;
   font-size: 16px;
