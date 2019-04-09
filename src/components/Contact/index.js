@@ -48,7 +48,7 @@ export default class Contact extends PureComponent {
     if (success) return <SuccuessMessage />
     return (
       <Container>
-        <Title>Контакты</Title>
+        <Title>Связаться со мной</Title>
         <Form>
           <Row>
             <Input empty={!!this.state.name} error={errors.includes('name')}>

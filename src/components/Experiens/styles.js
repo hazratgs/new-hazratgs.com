@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
 
 export const Item = styled.div`
   margin-bottom: 50px;
-  padding-left: 100px;
+  padding-left: 60px;
   box-sizing: border-box;
   position: relative;
 
