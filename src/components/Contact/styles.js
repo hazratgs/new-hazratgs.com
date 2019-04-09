@@ -25,6 +25,19 @@ export const Input = styled.div`
     margin-left: 15px;
   }
 
+  ${props => props.error && `
+    animation: 0.5s shake ease-in-out;
+
+    span {
+      color: red;
+    }
+
+    input, textarea {
+      border-color: red!important;
+    }
+    
+  `}
+
   span {
     position: absolute;
     left: 10px;
@@ -51,6 +64,7 @@ export const Input = styled.div`
     position: relative;
     z-index: 5;
     background-color: transparent;
+    transition: all ease-in-out 0.3s;
 
     &:focus ~ span {
       top: -15px;
@@ -73,6 +87,7 @@ export const Input = styled.div`
     background-color: transparent;
     resize: none;
     overflow: hidden;
+    transition: all ease-in-out 0.3s;
 
     &:focus ~ span {
       top: -15px;
@@ -124,5 +139,22 @@ export const Button = styled.button`
     width: 0;
     bottom: 0;
     background: #000;
+  }
+`
+
+export const Policy = styled.p`
+  font-size: 13px;
+  opacity: .4;
+  line-height: 20px;
+`
+
+export const SuccessMessageWrapper = styled.div`
+  padding: 10px 0 80px;
+
+  h2 {
+    font-family: bandera;
+    font-weight: normal;
+    font-size: 32px;
+    padding: 10px 0;
   }
 `
