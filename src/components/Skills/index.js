@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../Title'
-import { Skills, Wrapper, Item, New } from './styles'
+import { Skills, Wrapper, Item, New, Old } from './styles'
 
 export default () => (
   <Skills>
@@ -33,6 +33,11 @@ export default () => (
       <Item>
         <img src='/skills/nodejs.svg' alt='nodejs'/>
         <span>Node.js</span>
+      </Item>
+      <Item>
+        <img src='/skills/graphql.svg' alt='graphql'/>
+        <span>GraphQL</span>
+        <New>новое</New>
       </Item>
       <Item>
         <img src='/skills/mongodb.svg' alt='MongoDB'/>
@@ -86,6 +91,11 @@ export default () => (
       <Item disabled>
         <img src='/skills/php.svg' alt='php' style={{ width: 30 }}/>
         <span>PHP</span>
+      </Item>
+      <Item disabled>
+        <img src='/skills/jquery-icon.svg' alt='JQuery'/>
+        <span>JQuery</span>
+        <Old>говно</Old>
       </Item>
     </Wrapper>
   </Skills>

@@ -24,7 +24,7 @@ export const Item = styled.div`
   text-align: center;
   position: relative;
 
-  ${props => props.disabled && `opacity: .1;` }
+  ${props => props.disabled && `opacity: .2;` }
 
   img {
     width: 24px;
@@ -43,6 +43,19 @@ export const New = styled.div`
   right: 3px;
   top: 7px;
   background-color: red;
+  border-radius: 1px;
+  color: #fff;
+  font-size: 8px;
+  font-weight: 300;
+  padding: 1px 4px;
+  cursor: default;
+`
+
+export const Old = styled.div`
+  position: absolute;
+  right: 3px;
+  top: 7px;
+  background-color: #6f3d12;
   border-radius: 1px;
   color: #fff;
   font-size: 8px;
