@@ -8,7 +8,7 @@ export default () => (
     <Wrapper>
       <Item>
         <Company target='_blank' href='https://crypterium.com/'>
-          <img src='https://crypterium.com/favicon.png' alt='crypterium'/>
+          <img src='https://crypterium.com/favicon.png' alt='crypterium' />
           Crypterium
         </Company>
         <Type>Senior Frontend Developer</Type>
@@ -16,7 +16,7 @@ export default () => (
       </Item>
       <Item>
         <Company target='_blank' href='https://payqr.ru/'>
-          <img src='https://payqr.ru/favicon.ico' alt='payqr'/>
+          <img src='https://payqr.ru/favicon.ico' alt='payqr' />
           PayQR
         </Company>
         <Type>Middle Frontend Developer</Type>
@@ -24,7 +24,7 @@ export default () => (
       </Item>
       <Item>
         <Company target='_blank' href='https://febox.ru/'>
-          <img src='https://febox.ru/public/img/favicon.png' alt='payqr'/>
+          <img src='https://febox.ru/public/img/favicon.png' alt='payqr' />
           Febox
         </Company>
         <Type>Fullstack Developer</Type>
