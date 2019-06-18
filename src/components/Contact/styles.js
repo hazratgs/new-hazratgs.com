@@ -70,7 +70,6 @@ export const Input = styled.div`
     height: 33px;
     box-sizing: border-box;
     outline: none;
-    font-family: gerbera;
     position: relative;
     z-index: 5;
     background-color: transparent;
@@ -93,7 +92,6 @@ export const Input = styled.div`
     min-height: 33px;
     box-sizing: border-box;
     outline: none;
-    font-family: gerbera;
     position: relative;
     z-index: 5;
     background-color: transparent;
@@ -117,7 +115,6 @@ export const Button = styled.button`
   width: 245px;
   font-size: 18px;
   cursor: pointer;
-  font-family: gerbera;
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
