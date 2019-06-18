@@ -1,9 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,600,700|Josefin+Sans:300,400,600,700|Marck+Script|Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600|Josefin+Sans:400,600|Marck+Script|Yeseva+One&display=swap');
+
+/*
+Cormorant Garamond - text
+Josefin+Sans - english text
+Marck+Script - comic sans)
+Yeseva+One - name developer
+gerbera 
+*/
 
 body {
   margin: 0;
   padding: 0;
-  font-family: gerbera, Arial, Helvetica, sans-serif;
+  font-family: Cormorant Garamond, Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -20,7 +28,7 @@ body {
   font-style: normal;
 } */
 
-@font-face {
+/* @font-face {
   font-family: "gerbera";
   src: url('/font/Gerbera.otf');
   font-weight: normal;
@@ -32,7 +40,7 @@ body {
   src: url('/font/Gerbera_Light.otf');
   font-weight: 300;
   font-style: normal;
-}
+} */
 
 
 @-webkit-keyframes shake {

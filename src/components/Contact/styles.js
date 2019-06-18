@@ -52,6 +52,8 @@ export const Input = styled.div`
     top: 6px;
     z-index: 1;
     transition: all ease-in-out 0.3s;
+    font-size: 18px;
+    font-weight: bold;
 
     ${props => props.empty && `
       top: -15px;
@@ -64,7 +66,7 @@ export const Input = styled.div`
     border: 0;
     border-bottom: 1px solid #e2e2e2;
     padding: 5px 10px;
-    font-size: 16px;
+    font-size: 18px;
     height: 33px;
     box-sizing: border-box;
     outline: none;
@@ -74,6 +76,7 @@ export const Input = styled.div`
     background-color: transparent;
     transition: all ease-in-out 0.3s;
     width: 100%;
+    font-weight: bold;
 
     &:focus ~ span {
       top: -15px;
@@ -86,7 +89,7 @@ export const Input = styled.div`
     border: 0;
     border-bottom: 1px solid #e2e2e2;
     padding: 5px 10px;
-    font-size: 16px;
+    font-size: 18px;
     min-height: 33px;
     box-sizing: border-box;
     outline: none;
@@ -112,7 +115,7 @@ export const Button = styled.button`
   background-color: #fff;
   height: 60px;
   width: 245px;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   font-family: gerbera;
   box-sizing: border-box;
