@@ -1,10 +1,11 @@
 import React from 'react'
 import Title from '../Title'
-import { Skills, Wrapper, Item, New, Old } from './styles'
+import { Description, Skills, Wrapper, Item, New, Old } from './styles'
 
 export default () => (
   <Skills>
     <Title>Профессиональные навыки</Title>
+    <Description>У меня большой опыт разработки проектов с использованием следующих технологий:</Description>
     <Wrapper>
       <Item>
         <img src='/skills/js.svg' alt='javascript'/>
@@ -34,11 +35,11 @@ export default () => (
         <img src='/skills/nodejs.svg' alt='nodejs'/>
         <span>Node.js</span>
       </Item>
-      <Item>
+      {/* <Item>
         <img src='/skills/graphql.svg' alt='graphql'/>
         <span>GraphQL</span>
         <New>новое</New>
-      </Item>
+      </Item> */}
       <Item>
         <img src='/skills/mongodb.svg' alt='MongoDB'/>
         <span>MongoDB</span>

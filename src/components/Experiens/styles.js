@@ -1,7 +1,14 @@
 import styled from 'styled-components'
 
 export const Experience = styled.div`
-  padding: 20px 0;
+  padding: 60px 80px 20px;
+  margin-bottom: 40px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+
+  @media (max-width: 768px) {
+    padding: 40px 20px;
+  }
 `
 
 export const Wrapper = styled.div`
@@ -27,7 +34,7 @@ export const Item = styled.div`
     border-radius: 100%;
     position: absolute;
     bottom: 0;
-    top: 0;
+    top: 6px;
     left: 22px;
     content: '';
     margin: auto;
@@ -40,7 +47,7 @@ export const Item = styled.div`
     height: calc(100% + 34px);
     background-color: #999;
     position: absolute;
-    top: calc(50% + 8px);
+    top: calc(50% + 11px);
     left: 23px;
     content: '';
     opacity: .18;
@@ -58,6 +65,8 @@ export const Company = styled.a`
   color: black;
   display: flex;
   align-items: center;
+  font-family: Josefin Sans;
+  padding-bottom: 10px;
 
   img {
     width: 16px;
@@ -70,10 +79,11 @@ export const Type = styled.p`
   font-size: 15px;
   padding: 5px 0;
   margin: 0;
+  font-family: Josefin Sans;
 `
 
 export const DateWork = styled.span`
-  font-size: 13px;
+  font-size: 11px;
   opacity: .4;
   display: block;
 `

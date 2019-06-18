@@ -10,19 +10,20 @@ export const Wrapper = styled.div`
 `
 
 export const Logo = styled.div`
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
 
   img {
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 100%;
     object-fit: cover;
+    box-shadow: 3px 3px 10px -5px rgb(202, 130, 100); 
   }
 
   @media (max-width: 767px) {
-    width: 60px;
-    height: 60px;
+    width: 72px;
+    height: 72px;
   }
 `
 
@@ -34,19 +35,21 @@ export const Profile = styled.div`
   justify-content: center;
 
   h1 {
-    font-size: 26px;
-    font-family: bandera;
+    font-size: 24px;
+    font-family: Yeseva One, Cormorant Garamond;
     font-weight: normal;
   }
 
   p {
     font-size: 15px;
     padding: 5px 0;
+    font-family: Josefin Sans;
+    opacity: .8;
   }
 
   @media (max-width: 767px) {
     h1 {
-      font-size: 18px;
+      font-size: 19px;
     }
 
     p {
@@ -56,16 +59,22 @@ export const Profile = styled.div`
 `
 
 export const Geolocation = styled.div`
-  padding: 2px 0;
-  font-size: 13px;
+  padding: 7px 0 0;
+  font-size: 14px;
   opacity: .5;
   display: flex;
   align-items: center;
+  font-family: Marck Script;
 
   img {
-    width: 20px;
+    width: 16px;
     opacity: .5;
     margin-right: 5px;
+  }
+
+  span {
+    position: relative;
+    top: 1px;
   }
 
   @media (max-width: 767px) {

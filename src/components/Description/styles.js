@@ -4,19 +4,31 @@ export const Description = styled.div`
   max-width: 720px;
 
   p {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     line-height: 34px;
-    font-size: 22px;
+    font-size: 26px;
+    font-family: Cormorant Garamond;
+    font-weight: bold;
 
     @media (max-width: 768px) {
       font-size: 18px;
-      line-height: 28px;
+      line-height: 26px;
     }
 
     &.small {
       line-height: 24px;
-      font-size: 16px;
-      font-weight: 300;
+      font-size: 18px;
+      font-weight: 400;
+      opacity: .5;
+    }
+  }
+
+  @media (max-width: 768px) {
+    p {
+      &.small {
+        line-height: 18px;
+        font-size: 12px;
+      }
     }
   }
 `

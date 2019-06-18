@@ -1,8 +1,27 @@
 import styled from 'styled-components'
 
 export const Skills = styled.div`
-  padding: 20px 0;
+  padding: 60px 80px;
   max-width: 640px;
+
+  @media (max-width: 768px) {
+    padding: 40px 20px;
+  }
+`
+
+export const Description = styled.p`
+  margin-bottom: 10px;
+  font-family: Cormorant Garamond;
+  font-weight: bold;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
 `
 
 export const Wrapper = styled.div`
@@ -35,6 +54,8 @@ export const Item = styled.div`
 
   span {
     font-size: 12px;
+    font-family: Josefin Sans;
+
   }
 `
 

@@ -1,7 +1,11 @@
 import styled from 'styled-components'
 
 export const Footer = styled.div`
-  padding: 20px 0 40px;
+  padding: 20px 80px 40px;
+
+  @media (max-width: 768px) {
+    padding: 80px 20px 40px;
+  }
 `
 
 export const Copyright = styled.p`

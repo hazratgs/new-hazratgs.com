@@ -6,14 +6,14 @@ export default class Header extends PureComponent {
     return (
       <Wrapper>
         <Logo>
-          <img src='/hazrat-gadjikerimov.jpg' alt='Hazrat Gadjikermov'/>
+          <img src='/hazratgs.jpg' alt='hazratgs'/>
         </Logo>
         <Profile>
           <h1>Хазрат Гаджикеримов</h1>
-          <p>Frontend developer</p>
+          <p>Backend and Frontend Developer</p>
           <Geolocation>
             <img src='/map.svg' alt='Derbent, Russia Federation'/>
-            Дербент, Республика Дагестан
+            <span>Дербент, Республика Дагестан</span>
           </Geolocation>
         </Profile>
       </Wrapper>

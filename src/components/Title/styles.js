@@ -1,8 +1,12 @@
 import styled from 'styled-components'
 
 export const Title = styled.h2`
-  font-size: 20px;
-  margin-bottom: 20px;
-  font-family: bandera;
-  font-weight: normal;
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-family: Cormorant Garamond;
+  font-weight: bold;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
 `
