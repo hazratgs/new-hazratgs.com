@@ -10,9 +10,11 @@ export const Description = styled.div`
     font-family: Cormorant Garamond;
     font-weight: bold;
 
-    @media (max-width: 768px) {
-      font-size: 18px;
-      line-height: 26px;
+    &.text {
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: normal;
+      margin-top: 20px;
     }
 
     &.small {
@@ -20,11 +22,20 @@ export const Description = styled.div`
       font-size: 18px;
       font-weight: 400;
       opacity: .5;
+      margin-top: 50px;
     }
   }
 
   @media (max-width: 768px) {
     p {
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: bold;
+
+      &.text {
+        font-size: 16px;
+      }
+    
       &.small {
         line-height: 18px;
         font-size: 12px;

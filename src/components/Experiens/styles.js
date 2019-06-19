@@ -33,8 +33,7 @@ export const Item = styled.div`
     background-color: #333;
     border-radius: 100%;
     position: absolute;
-    bottom: 0;
-    top: 6px;
+    top: 35px;
     left: 22px;
     content: '';
     margin: auto;
@@ -47,7 +46,7 @@ export const Item = styled.div`
     height: calc(100% + 34px);
     background-color: #999;
     position: absolute;
-    top: calc(50% + 11px);
+    top: 45px;
     left: 23px;
     content: '';
     opacity: .18;
@@ -86,4 +85,24 @@ export const DateWork = styled.span`
   font-size: 11px;
   opacity: .4;
   display: block;
+  font-family: Arial, Helvetica, sans-serif;
+`
+
+export const Description = styled.div`
+  padding: 15px 0;
+  max-width: 720px;
+  
+  b {
+    padding-bottom: 10px;
+    display: block;
+  }
+
+  p {
+    margin-bottom: 5px;
+
+    &.english {
+      /* font-family: Josefin Sans;
+      font-size: 12px; */
+    }
+  }
 `
