@@ -43,6 +43,38 @@ body {
   font-style: normal;
 } */
 
+@keyframes bg {
+    0%, 10% {
+        background-color: #f7e3e3;
+    }
+    20% {
+        background-color: #f7eee3;
+    }
+    30% {
+        background-color: #f7f7e3;
+    }
+    40% {
+        background-color: #eef7e3;
+    }
+    50% {
+        background-color: #e3f7f1;
+    }
+    60% {
+        background-color: #e3f1f7;
+    }
+    70% {
+        background-color: #e3e9f7;
+    }
+    80% {
+        background-color: #e8e3f7;
+    }
+    90% {
+        background-color: #f1e3f7;
+    }
+    10% {
+        background-color: #f7e3ef;
+    }
+}
 
 @-webkit-keyframes shake {
   8%, 41% {
