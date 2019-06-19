@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Description = styled.div`
-  max-width: 720px;
+  max-width: 920px;
 
   p {
     margin-bottom: 10px;
