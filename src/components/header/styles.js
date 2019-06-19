@@ -64,7 +64,6 @@ export const Geolocation = styled.div`
   opacity: .5;
   display: flex;
   align-items: center;
-  font-family: Marck Script;
 
   img {
     width: 16px;
@@ -75,6 +74,7 @@ export const Geolocation = styled.div`
   span {
     position: relative;
     top: 1px;
+    font-family: Marck Script;
   }
 
   @media (max-width: 767px) {

@@ -82,10 +82,10 @@ export const Type = styled.p`
 `
 
 export const DateWork = styled.span`
-  font-size: 11px;
+  font-size: 14px;
   opacity: .4;
   display: block;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Marck Script;
 `
 
 export const Description = styled.div`
