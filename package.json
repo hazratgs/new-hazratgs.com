@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "aws s3 sync build s3://hazratgs.com",
-    "deploy-server": "scp -r build/* ec2:/var/www/hazratgs.com/"
+    "deploy-server": "npm run build && scp -r build/* ec2:/var/www/hazratgs.com/"
   },
   "eslintConfig": {
     "extends": "react-app"
