@@ -30,3 +30,8 @@ export const FirstScreen = styled.div`
     height: auto;
   }
 `
+
+export const FirstScreenWrapper = styled.div`
+  position: relative;
+  z-index: 6;
+`

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Wrapper, FirstScreen } from './styles'
+import { Wrapper, FirstScreen, FirstScreenWrapper } from './styles'
 import Header from '../../components/Header'
 import Description from '../../components/Description'
 import Skills from '../../components/Skills'
@@ -11,10 +11,12 @@ export default () => (
   <Fragment>
     <Wrapper>
       <FirstScreen>
-        <Header />
-        <Description />
-        <br />
-        <ContactButtons />
+        <FirstScreenWrapper>
+          <Header />
+          <Description />
+          <br />
+          <ContactButtons />
+        </FirstScreenWrapper>
       </FirstScreen>
       <Skills />
       <Experience />
