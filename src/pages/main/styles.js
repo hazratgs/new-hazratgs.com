@@ -11,6 +11,7 @@ export const FirstScreen = styled.div`
   position: relative;
   overflow: hidden;
   animation: 15s bg ease-in-out;
+  animation-iteration-count: infinite;
 
   &::after {
     /* position: absolute;
