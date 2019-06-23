@@ -5,14 +5,15 @@ import Description from '../../components/Description'
 import Skills from '../../components/Skills'
 import Experience from '../../components/Experiens'
 import Contact from '../../components/Contact'
+import BlogLinks from '../../components/BlogLinks'
 import ContactButtons from '../../components/ContactButtons'
 
 export default () => {
-  const video = useRef()
+  // const video = useRef()
 
   useEffect(() => {
-    video.current.pause()
-    video.current.play()
+    // video.current.pause()
+    // video.current.play()
   }, [])
 
   return (
@@ -24,10 +25,11 @@ export default () => {
             <Description />
             <br />
             <ContactButtons />
+            <BlogLinks />
           </FirstScreenWrapper>
-          <video ref={video} autoPlay={true} loop preload="true" playsInline muted>
+          {/* <video ref={video} autoPlay={true} loop preload="true" playsInline muted>
             <source src="/bg.mp4" />
-          </video>
+          </video> */}
         </FirstScreen>
         <Skills />
         <Experience />

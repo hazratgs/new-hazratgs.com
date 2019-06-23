@@ -5,13 +5,13 @@ export const Wrapper = styled.div`
 `
 
 export const FirstScreen = styled.div`
-  height: 720px;
+  /* height: 720px; */
   background: #f7e9e3;
   padding: 0 80px;
   position: relative;
   overflow: hidden;
-  animation: 15s bg ease-in-out;
-  animation-iteration-count: infinite;
+  /* animation: 15s bg ease-in-out; */
+  /* animation-iteration-count: infinite; */
 
   &::after {
     /* position: absolute;

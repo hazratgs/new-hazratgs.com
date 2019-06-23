@@ -18,7 +18,8 @@ export const Logo = styled.div`
     height: 100%;
     border-radius: 100%;
     object-fit: cover;
-    box-shadow: 3px 3px 10px -5px rgb(202, 130, 100); 
+    box-shadow: 3px 3px 10px -5px rgba(152, 114, 98, 0.59); 
+    /* border: 2px solid #f7e9e3; */
   }
 
   @media (max-width: 767px) {

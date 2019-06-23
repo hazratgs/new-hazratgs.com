@@ -23,6 +23,7 @@ export const Description = styled.div`
       font-weight: 400;
       opacity: .5;
       margin-top: 50px;
+      margin-bottom: 20px;
     }
   }
 
