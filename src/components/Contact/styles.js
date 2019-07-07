@@ -52,8 +52,8 @@ export const Input = styled.div`
     top: 6px;
     z-index: 1;
     transition: all ease-in-out 0.3s;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: normal;
 
     ${props => props.empty && `
       top: -15px;
@@ -66,7 +66,7 @@ export const Input = styled.div`
     border: 0;
     border-bottom: 1px solid #e2e2e2;
     padding: 5px 10px;
-    font-size: 18px;
+    font-size: 14px;
     height: 33px;
     box-sizing: border-box;
     outline: none;
@@ -75,7 +75,6 @@ export const Input = styled.div`
     background-color: transparent;
     transition: all ease-in-out 0.3s;
     width: 100%;
-    font-weight: bold;
 
     &:focus ~ span {
       top: -15px;

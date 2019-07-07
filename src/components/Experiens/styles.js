@@ -91,14 +91,19 @@ export const DateWork = styled.span`
 export const Description = styled.div`
   padding: 15px 0;
   max-width: 720px;
+  font-size: 14px;
   
   b {
     padding-bottom: 10px;
     display: block;
+    font-weight: 400;
+    color: #000;
   }
 
   p {
     margin-bottom: 5px;
+    color: #333;
+    line-height: 20px;
 
     &.english {
       /* font-family: Josefin Sans;

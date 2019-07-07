@@ -15,6 +15,24 @@ export default () => (
     <Title>Опыт работы</Title>
     <Wrapper>
       <Item>
+        <Company target='_blank' href='http://injoy.org/'>
+          <img src='//u20.filesonload.ru/e49a25e4fab78006866e605c952cc2d6/57dd20997bd4dfcd302b8c0abc32c0bb.png' alt='injoy' />
+          Injoy
+        </Company>
+        <Type>Senior Frontend Developer</Type>
+        <DateWork>Апрель 2019 - По настоящее время</DateWork>
+        <Description>
+          <b>Основные обязаности:</b>
+          <p>• Разработка и поддержка инновационного образовательного проекта по принципу Финского образования</p>
+          <p>• Server Side Render</p>
+          <p>• CI/CD</p>
+        </Description>
+        <Description>
+          <b>Используемые технологии:</b>
+          <p className='english'>TypeScript • React • Redux-Saga • Reselect • Styled-components • Node.js • Amazon Web Services</p>
+        </Description>
+      </Item>
+      <Item>
         <Company target='_blank' href='https://crypterium.com/'>
           <img src='https://crypterium.com/favicon.png' alt='crypterium' />
           Crypterium

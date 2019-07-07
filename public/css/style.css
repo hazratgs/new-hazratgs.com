@@ -11,7 +11,7 @@ gerbera
 body {
   margin: 0;
   padding: 0;
-  font-family: Cormorant Garamond, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -19,7 +19,7 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Cormorant Garamond, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* @font-face {
