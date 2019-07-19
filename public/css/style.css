@@ -11,7 +11,7 @@ gerbera
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: gerbera, Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -19,7 +19,7 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: gerbera, Arial, Helvetica, sans-serif;
 }
 
 /* @font-face {
@@ -29,7 +29,7 @@ body {
   font-style: normal;
 } */
 
-/* @font-face {
+@font-face {
   font-family: "gerbera";
   src: url('/font/Gerbera.otf');
   font-weight: normal;
@@ -41,7 +41,7 @@ body {
   src: url('/font/Gerbera_Light.otf');
   font-weight: 300;
   font-style: normal;
-} */
+}
 
 @keyframes bg {
     0%, 10% {

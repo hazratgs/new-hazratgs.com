@@ -92,18 +92,21 @@ export const Description = styled.div`
   padding: 15px 0;
   max-width: 720px;
   font-size: 14px;
+  font-family: gerbera;
   
   b {
     padding-bottom: 10px;
     display: block;
     font-weight: 400;
     color: #000;
+    font-family: gerbera;
   }
 
   p {
     margin-bottom: 5px;
     color: #333;
     line-height: 20px;
+    font-family: gerbera;
 
     &.english {
       /* font-family: Josefin Sans;

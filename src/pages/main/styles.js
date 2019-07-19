@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
 
 export const FirstScreen = styled.div`
   /* height: 720px; */
+  /* background: #f7e9e3; */
   background: #f7e9e3;
   padding: 0 80px;
   position: relative;
@@ -14,7 +15,7 @@ export const FirstScreen = styled.div`
   /* animation-iteration-count: infinite; */
 
   &::after {
-    /* position: absolute;
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
@@ -22,10 +23,10 @@ export const FirstScreen = styled.div`
     content: '';
     background-color: red;
     z-index: 5;
-    background-image: url('/bg.jpg');
+    background-image: url('/bg2.jpg');
     background-position: center;
     background-size: cover;
-    opacity: .05; */
+    opacity: .05;
   }
 
   video {

@@ -6,7 +6,7 @@ export default class Header extends PureComponent {
     return (
       <Wrapper>
         <Logo>
-          <img src='/hazratgs.jpg' alt='hazratgs'/>
+          <img src='/hazrat-gadjikerimov.jpg' alt='hazratgs'/>
         </Logo>
         <Profile>
           <h1>Хазрат Гаджикеримов</h1>
