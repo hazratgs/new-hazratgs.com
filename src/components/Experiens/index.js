@@ -34,7 +34,7 @@ export default () => (
         </Description>
         <Description>
           <b>Используемые технологии:</b>
-          <p className='english'>TypeScript • React • Redux-Saga • Linaria • Node.js</p>
+          <p className='english'>TypeScript • React • Redux-Saga • Linaria • React-testing-library • Node.js</p>
         </Description>
       </Item>
       <Item>

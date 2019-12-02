@@ -23,10 +23,10 @@ export const FirstScreen = styled.div`
     content: '';
     background-color: red;
     z-index: 5;
-    background-image: url('/bg2.jpg');
+    background-image: url('/bg.jpg');
     background-position: center;
     background-size: cover;
-    opacity: .05;
+    opacity: .04;
   }
 
   video {
